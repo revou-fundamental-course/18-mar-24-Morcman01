@@ -75,7 +75,7 @@ button:active {
 }
 #gridcontainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   gap: 1rem;
 }
 
@@ -317,7 +317,7 @@ h4 {
 }
 
 /* UNTUK RESPONSIVE LAYOUT */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 758px) {
   .container {
     display: flex;
     flex-direction: column;
