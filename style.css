@@ -326,7 +326,7 @@ h4 {
     border-bottom: 2px solid black;
   }
   #gridcontainer {
-    grid-template-columns: repeat(auto-fit, 96vw);
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   }
   #foto1 {
     width: 100%;
