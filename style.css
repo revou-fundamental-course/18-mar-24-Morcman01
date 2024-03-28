@@ -316,7 +316,7 @@ h4 {
 }
 
 /* UNTUK RESPONSIVE LAYOUT */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: column;
