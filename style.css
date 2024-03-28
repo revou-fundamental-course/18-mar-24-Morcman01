@@ -1,0 +1,371 @@
+body {
+  font-family: Arial;
+  background-color: rgb(31, 34, 34);
+}
+
+/* INI BAGIAN HEADER NAV BAR */
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:active {
+  background-color: white;
+  color: black;
+  transition: none;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: rgb(192, 192, 192);
+}
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background-color: rgb(192, 192, 192);
+}
+.container-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonnav {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  padding: 15px 10px;
+  cursor: pointer;
+  margin: none;
+  border: none;
+  transition: 0.25s;
+  background-color: rgb(192, 192, 192);
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin: none;
+}
+#smansa2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 50px;
+}
+#visit {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+
+/* INI BAGIAN ALBUM DAN FORM */
+#mainhead {
+  text-align: center;
+  color: white;
+}
+#mainsubtitle {
+  text-align: center;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-style: italic;
+}
+#gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  gap: 1rem;
+}
+
+
+/* AUTO BANNER START */
+.mySlides {
+  display: none;
+}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  vertical-align: middle;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* AUTO BANNER END */
+
+#quote {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  margin-top: 15px;
+}
+#profilecontainer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(192, 192, 192);
+  margin: 20px 0px 0px 0px;
+}
+#smansa1 {
+  width: 75px;
+  border-radius: 50px;
+  padding: 10px 10px;
+}
+#profilename-container {
+  align-self: center;
+  margin-left: 10px;
+}
+#profilename {
+  font-weight: bold;
+  font-size: 19px;
+}
+#alamat {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+#formcontainer {
+  background-color: rgb(192, 192, 192);
+  padding: 20px 30px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-top: 20px;
+}
+#contact {
+  font-weight: bold;
+  font-size: 23px;
+}
+#sales {
+  color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 13px;
+  margin-bottom: 1%;
+  width: 100%;
+  line-height: 23px;
+}
+#error{
+position: relative;
+max-width: 100%;
+text-align: center;
+color: rgba(128, 0, 0, 0.749);
+font-weight: bold;
+margin-top: 5px;
+font-style: italic;
+}
+.label {
+  color: rgb(25, 24, 24);
+  font-weight: 550;
+}
+#nama {
+  border: 2px solid rgb(177, 180, 180);
+  border-radius: 3px;
+  padding: 6px 6px;
+  margin-bottom: 15px;
+}
+#email {
+  border: 2px solid rgb(177, 180, 180);
+  border-radius: 3px;
+  padding: 6px 6px;
+}
+#formoption {
+  border: 2px solid rgb(177, 180, 180);
+  border-radius: 3px;
+  padding: 6px 6px;
+  position: relative;
+  bottom: 9px;
+  margin-bottom: 10px;
+}
+#specify {
+  border: 2px solid rgb(177, 180, 180);
+  border-radius: 3px;
+  width: 100%;
+  font-family: Arial;
+}
+#formsend {
+  background-color: rgb(31, 34, 34);
+  color: white;
+  border: none;
+  border-radius: 1px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px 4px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+#formsend:hover {
+  background-color: white;
+  color: rgb(31, 34, 34);
+}
+#formsend:active {
+  opacity: 0.3;
+}
+
+/* INI BAGIAN ABOUT US */
+.offercontainer {
+  background-color: rgb(192, 192, 192);
+  padding: 20px 5%;
+  margin-top: 30px;
+}
+.offerhead {
+  font-weight: bolder;
+  padding: 10px 8px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.offer {
+  margin-bottom: 50px;
+  text-indent: 15px;
+  text-align: start;
+  font-size: 18px;
+  max-width: 100%;
+}
+#pakhai {
+  text-decoration: none;
+}
+
+/* INI BAGIAN OUR PACKAGES */
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+}
+hr{
+  background-color: rgb(31, 34, 34);
+}
+.packagecontainer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(192, 192, 192);
+  text-align: start;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.subpackage {
+  max-width: 25%;
+  max-height: 100%;
+  padding: 20px 20px;
+}
+.subpackagetitle {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.subpackagesubtitle {
+  max-width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  line-height: 24px;
+  font-size: 18px;
+  text-align: start;
+}
+
+/* BAGIAN CALL TO ACTION */
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+}
+.calltoaction-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(192, 192, 192, 0);
+  text-align: center;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+#calltoaction-subtitle {
+  font-weight: bold;
+  color: white;
+}
+#calltoaction {
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 34, 34);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 75px;
+  cursor: pointer;
+  transition: 0.15s;
+  align-self: center;
+  font-size: 100%;
+  font-weight: bold;
+}
+#calltoaction:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+#calltoaction:active {
+  opacity: 0.3;
+}
+
+/* UNTUK RESPONSIVE LAYOUT */
+@media screen and (max-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-logo {
+    border-bottom: 2px solid black;
+  }
+  #gridcontainer {
+    grid-template-columns: repeat(auto-fit, 96vw);
+  }
+  #foto1 {
+    width: 100%;
+  }
+  .offercontainer {
+    background-color: rgb(192, 192, 192);
+    padding: 20px 20px;
+    margin-top: 30px;
+  }
+  .offer {
+    margin-bottom: 50px;
+    text-indent: 15px;
+    text-align: justify;
+    font-size: 18px;
+    width: 100%;
+  }
+  .packagecontainer {
+    display: flex;
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .subpackage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    padding: 20px 20px;
+  }
+  .subpackagetitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  .subpackagesubtitle {
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+  }
+}
